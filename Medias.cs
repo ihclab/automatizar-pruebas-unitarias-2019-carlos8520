@@ -18,6 +18,7 @@ namespace AutomatizarPruebasUnitarias {
                 }
                 return suma/vals.Length();
             //(Virgen Óscar, 2019, p.72)
+            // ora si
         }     
 
         /**
