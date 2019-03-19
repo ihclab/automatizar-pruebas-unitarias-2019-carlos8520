@@ -33,13 +33,19 @@ namespace AutomatizarPruebasUnitarias {
         /**
          *  Usa raizEnesima para calcular y regresar la media geométrica
          */
-        public double mediaGeometrica(params int[] vals) { }
+        public double mediaGeometrica(params int[] vals) { 
+            double sum = 0;
+                foreach(int i in vals) {
+                    sum+=i;
+                }
+            return raizEnesima(suma, vals.Length());
+        }
 
         /**
          * Este método no está implementado
          */
         public static double mediaArmonica(params int[] vals) { 
-
+            
         }
     }
 }
